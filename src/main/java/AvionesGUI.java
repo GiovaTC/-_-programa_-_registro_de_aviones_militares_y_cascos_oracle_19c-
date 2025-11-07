@@ -32,6 +32,6 @@ public class AvionesGUI extends JFrame {
         for (String a : aviones) area.append(a + "\n");
     }
     public static void main(String[] args) {
-        SwingUtilities.invokeLater(() -> new AvionesGUI().setVisible(true));    
+        SwingUtilities.invokeLater(() -> new AvionesGUI().setVisible(true));
     }
 }
